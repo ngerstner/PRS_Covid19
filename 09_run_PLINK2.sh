@@ -30,7 +30,7 @@ echo $icohort
 echo $itrait
 
 #run PLINK2 to calculate overall risk of each individual in cohorts for the different diseases/traits
-/binder/mgp/code/plink2/plink2 --score "/binder/mgp/datasets/2020_PRS_Covid19/GWAS_sumstats/${traits[$itrait]}/${cohort_short[$icohort]}_all_chromosomes.flipRisk" 2 4 6 --out "/binder/mgp/datasets/2020_PRS_Covid19/GWAS_sumstats/${traits[$itrait]}/${cohort_short[$icohort]}_plink_out" --bfile "/binder/common/genotypes/qc_imputations/${cohort[$icohort]}"
+/binder/mgp/code/plink2/plink2 --score "/binder/mgp/datasets/2020_PRS_Covid19/calculated_PRS_july2020/${traits[$itrait]}/${cohort_short[$icohort]}_all_chromosomes.flipRisk" 2 4 6 --out "/binder/mgp/datasets/2020_PRS_Covid19/calculated_PRS_july2020/${traits[$itrait]}/${cohort_short[$icohort]}_plink_out" --bfile "/binder/common/genotypes/qc_imputations/${cohort[$icohort]}"
 
 #remove concatenated file
-#rm /binder/mgp/datasets/2020_GWAS_Covid19/${traits[$itrait]}/${cohort_short[$icohort]}_all_chromosomes.txt
+#rm /binder/mgp/datasets/2020_PRS_Covid19/calculated_PRS_july2020/${traits[$itrait]}/${cohort_short[$icohort]}_all_chromosomes.txt

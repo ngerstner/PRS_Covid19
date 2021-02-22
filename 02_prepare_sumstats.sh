@@ -2,6 +2,9 @@
 sum_stats_path="/binder/mgp/datasets/2020_PRS_Covid19/GWAS_sumstats"
 #script_path="/binder/mgp/code/PRS_Covid19"
 
+### INFO: awk commands are commented out to run only specific traits,
+### but they are needed
+
 #######################################
 ### Prepare Summary Statistic Files ### 
 #######################################

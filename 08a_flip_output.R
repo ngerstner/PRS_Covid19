@@ -10,7 +10,7 @@ args = commandArgs(trailingOnly=TRUE)
 trait <- args[1]
 cohort <- args[2]
 #trait <- "tuberculosis"
-base_data <- "/binder/mgp/datasets/2020_PRS_Covid19/GWAS_sumstats/"
+base_data <- "/binder/mgp/datasets/2020_PRS_Covid19/calculated_PRS_july2020/"
 
 
 ### FUNCTIONS ###################################

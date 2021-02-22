@@ -29,4 +29,4 @@ echo $icohort
 echo $itrait
 
 #concatenate files of all chromosomes to one file
-cat /binder/mgp/datasets/2020_PRS_Covid19/GWAS_sumstats/${traits[$itrait]}/${cohort_short[$icohort]}/${traits[$itrait]}*.txt > /binder/mgp/datasets/2020_PRS_Covid19/GWAS_sumstats/${traits[$itrait]}/${cohort_short[$icohort]}_all_chromosomes.txt
+cat /binder/mgp/datasets/2020_PRS_Covid19/calculated_PRS_july2020/${traits[$itrait]}/${cohort_short[$icohort]}/${traits[$itrait]}*.txt > /binder/mgp/datasets/2020_PRS_Covid19/calculated_PRS_july2020/${traits[$itrait]}/${cohort_short[$icohort]}_all_chromosomes.txt

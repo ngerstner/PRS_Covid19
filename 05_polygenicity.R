@@ -6,6 +6,9 @@
 # Identify GWAS with less than 250000 samples
 # and evaluate if highly polygenic
 
+### INFO: Don't do this --> evaluate polygenicity from literature
+### skip this script
+
 data_base <- "/binder/mgp/datasets/2020_PRS_Covid19/GWAS_sumstats/"
 sumfile <- "GWAS_summaries.tsv"
 

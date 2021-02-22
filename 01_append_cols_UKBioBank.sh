@@ -4,7 +4,7 @@
 traits_ukbb=("age" "bladderNeoplasm" "cancer" "copd" "diabetesType1" "drinking" "esophagus" "gender" "hypertension" "lungCancer" "pneumonia" "stroke" "tuberculosis")
 #traits_ukbb=("age")
 #traits_ukbb=("bladderNeoplasm" "cancer" "copd" "diabetesType1" "drinking" "esophagus" "gender" "hypertension" "lungCancer" "pneumonia" "stroke" "tuberculosis")
-base_path="/binder/mgp/datasets/2020_GWAS_Covid19"
+base_path="/binder/mgp/datasets/2020_PRS_Covid19"
 
 for trait in "${traits_ukbb[@]}"; do
 	echo $trait

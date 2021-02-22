@@ -6,6 +6,8 @@
 # Filter SNPs with NAs out of sumstats 
 # Flip SNPs with negative BETA
 
+### INFO: flip step is useless, can be skipped
+
 #read arguments
 args = commandArgs(trailingOnly=TRUE)
 trait <- args[1]
